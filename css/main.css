@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background: #c0c0aa;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 60px;
+    font-weight: bold;
+    animation: up-down 3s alternate;
+    animation-iteration-count: infinite;
+    padding: 10% 0;
+}
+@keyframes up-down {
+    0% {
+        transform: translateY(-6%);
+    }
+    100% {
+        transform: translateY(6%);
+    }
+}
