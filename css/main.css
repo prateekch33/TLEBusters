@@ -11,7 +11,7 @@ h1{
     font-weight: bold;
     animation: up-down 3s alternate;
     animation-iteration-count: infinite;
-    padding: 10% 0;
+    padding: 14% 0;
 }
 @keyframes up-down {
     0% {
