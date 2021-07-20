@@ -1,0 +1,145 @@
+.body {
+    margin: 0;
+}
+.main {
+    border: 4px solid;
+    border-radius: 10px;
+    width: 40%;
+}
+.top-box {    
+    margin-top: 0%;
+    background-color: brown;
+    border: 1px solid none;
+    border-radius: 5px;
+}
+.box-heading {
+    color: aliceblue;
+    text-decoration: underline;
+}
+.details {
+    padding-left: 2%;
+    padding-right: 4%;
+}
+span {
+    color: red;
+}
+.require {
+    float: left;
+}
+.input {
+    display: block;
+    overflow: hidden;    
+    border: 1px solid none;
+    border-radius: 10px;
+    padding: 2%;    
+    outline: none;
+}
+.lower-box {
+    text-align: right;
+    padding-right: 4%;
+    font-size: 18px;
+}
+.submit {
+    display: flex;
+    justify-content: center;    
+    outline: none;
+    border: 0.5px solid grey;
+    padding: 2%;    
+}
+
+/* Responsive */
+@media (min-width: 310px) {
+    .main {         
+        margin: 25% 28%;
+    }
+    .top-box {
+        padding: 1% 40%;
+    }
+    .input {
+        margin-left: 30%;
+        margin-top: 4%;
+        margin-bottom: 10%;
+    }
+    .submit {
+        margin-left: 90px;
+        width: 30%;
+        width: 60%;
+    }
+    .require {        
+        margin-top: -2.5%;
+        margin-left: 2%;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .main {         
+        margin: 45% 8%;
+    }
+    .top-box {
+        padding: 1% 40%;
+    }
+    .input {
+        margin-left: 30%;
+        margin-top: 4%;
+        margin-bottom: 10%;
+    }
+    .submit {
+        margin-left: 90px;
+        width: 30%;
+        width: 60%;
+    }
+    .require {        
+        margin-top: -2.5%;
+        margin-left: 2%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .main {         
+        margin: 25% 28%;
+    }
+    .top-box {
+        padding: 1% 35%;
+    }
+    .input {
+        margin-left: 30%;
+        margin-top: 4%;
+        margin-bottom: 10%;        
+        width: 60%;
+    }
+    .submit {
+        margin-left: 40%;
+        width: 30%;
+    }
+    .require {        
+        margin-top: -15px;
+        margin-left: 2%;
+        margin-right: 6px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .main {         
+        margin: 8% 28%;
+    }
+    .top-box {
+        padding: 0.5% 40%;
+    }
+    .input {
+        margin-left: 30%;
+        margin-top: 4%;
+        margin-bottom: 10%;        
+        width: 60%;
+    }
+    .submit {
+        margin-left: 40%;
+        width: 30%;
+    }
+    .require {        
+        margin-top: -15px;
+        margin-left: 2%;
+        margin-right: 6px;
+    }
+}
