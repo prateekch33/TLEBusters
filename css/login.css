@@ -2,9 +2,9 @@
     margin: 0;
 }
 .main {
-    border: 4px solid;
+    border: 4px solid none;
     border-radius: 10px;
-    width: 40%;
+    background-color: antiquewhite;
 }
 .top-box {    
     margin-top: 0%;
@@ -38,6 +38,7 @@ span {
     text-align: right;
     padding-right: 4%;
     font-size: 18px;
+    padding-bottom: 0.1px;
 }
 .submit {
     display: flex;
@@ -49,8 +50,10 @@ span {
 
 /* Responsive */
 @media (min-width: 310px) {
-    .main {         
-        margin: 25% 28%;
+    .main {
+        width: 60%;
+        margin-left: 22%;
+        margin-right: 22%;
     }
     .top-box {
         padding: 1% 40%;
@@ -58,12 +61,12 @@ span {
     .input {
         margin-left: 30%;
         margin-top: 4%;
-        margin-bottom: 10%;
+        margin-bottom: 10%;        
+        width: 60%;
     }
     .submit {
         margin-left: 90px;
         width: 30%;
-        width: 60%;
     }
     .require {        
         margin-top: -2.5%;
@@ -72,8 +75,8 @@ span {
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-    .main {         
-        margin: 45% 8%;
+    .main {        
+        margin: 120px 22%;
     }
     .top-box {
         padding: 1% 40%;
@@ -96,8 +99,8 @@ span {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .main {         
-        margin: 25% 28%;
+    .main {        
+        margin: 80px 22%;
     }
     .top-box {
         padding: 1% 35%;
@@ -121,8 +124,9 @@ span {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .main {         
-        margin: 8% 28%;
+    .main {        
+        margin: 10% 32%;
+        width: 40%;
     }
     .top-box {
         padding: 0.5% 40%;
